@@ -11,7 +11,7 @@ const BlackCard = ({image,text}) => {
         </Flex>
         <Text  fontWeight={600} fontSize={"18px"}>{text}</Text>
     </Flex>
-    <Text w="90%" color="#D9D9D9" fontSize={"13.5px"} fontWeight={200} margin={"auto"} mt="3%">For the people who would love to risk huge to get rewararded. People who would love to risk huge to get rewarded</Text>
+    <Text w="90%" color="#D9D9D9" fontSize={["12px","12.5px","13px","13.5px"]} fontWeight={200} margin={"auto"} mt="3%">For the people who would love to risk huge to get rewararded. People who would love to risk huge to get rewarded</Text>
 
     <Flex  gap="15%" w="90%" margin={"auto"} mt="10%" >
         <Box>

@@ -9,7 +9,7 @@ import youtube from "../Images/youtube.png";
 
 const Footer = () => {
   return (
-    <Box mt="10%" bg="#171E27" h="90vh">
+    <Box mt="10%" bg="#171E27" pb="10">
       <Box w="90%" margin="auto" fontSize={"14px"} color={"#D9D9D9"}>
         <Box w={"20%"} mt="3%" ml="-3%">
           <Image w={"90%"} src={logo} />

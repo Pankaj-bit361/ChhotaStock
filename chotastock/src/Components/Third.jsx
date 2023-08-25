@@ -14,11 +14,11 @@ const Third = () => {
 
             
 
-            <SimpleGrid mt={'5%'} columns={['3', '3', '3', '4']} gap={'20px'}>
+            <SimpleGrid mt={'5%'} columns={['3', '4', '4', '4']} gap={'20px'}>
                 <Box bgColor={'#FEF8EC'} w={'100%'} border={'1px solid #FDE3AF'} p={'4% 4%'} h={'35vh'} >
                     <Image src={img6} w={'30%'} />
                     <Text color={'#7C59CF'}>INVESTPE</Text>
-                    <Heading color={'#7C59CF'} fontSize={'1.3rem'} mt={'5%'}>Why does it make sense to start with us?</Heading>
+                    <Heading color={'#7C59CF'} fontSize={["1rem","1.1rem","1.2rem",'1.3rem']} mt={'5%'}>Why does it make sense to start with us?</Heading>
                 </Box>
                 <Box gridColumnStart={2} gridColumnEnd={4} bgColor={'#FAFCFD;'} h={'35vh'}  border={'1px solid #FDE3AF'} p={'2%'}>
                     <Flex> 

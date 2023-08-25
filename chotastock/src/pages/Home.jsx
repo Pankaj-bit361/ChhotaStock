@@ -77,7 +77,7 @@ const navigate =useNavigate()
               <MdOutlineKeyboardArrowLeft />
             </Box>
 
-            <Flex gap="4%" fontSize={"13px"} lineHeight={"18px"}>
+            <Flex gap="4%" fontSize={"0.9vw"} lineHeight={"18px"}>
               <Text fontWeight={"500"}>ANK</Text>
               <Text>43,851.05</Text>
               <Flex placeItems={"center"} color={"red"}>
@@ -88,7 +88,7 @@ const navigate =useNavigate()
               </Flex>
             </Flex>
 
-            <Flex gap="4%" fontSize={"13px"} lineHeight={"18px"}>
+            <Flex gap="4%" fontSize={"0.9vw"} lineHeight={"18px"}>
               <Text fontWeight={"500"}>BAJFINANCE</Text>
               <Text>6,862.10</Text>
               <Flex placeItems={"center"} color={"red"}>
@@ -99,7 +99,7 @@ const navigate =useNavigate()
               </Flex>
             </Flex>
 
-            <Flex gap="4%" fontSize={"13px"} lineHeight={"18px"}>
+            <Flex gap="4%" fontSize={"0.9vw"} lineHeight={"18px"}>
               <Text fontWeight={"500"}>BHARTIARTL</Text>
               <Text>8516.25</Text>
               <Flex placeItems={"center"} color="red">
@@ -110,7 +110,7 @@ const navigate =useNavigate()
               </Flex>
             </Flex>
 
-            <Flex gap="4%" fontSize={"13px"} lineHeight={"18px"}>
+            <Flex gap="4%" fontSize={"0.9vw"} lineHeight={"18px"}>
               <Text fontWeight={"500"}>HDFCBANK</Text>
               <Text>1,590.75</Text>
               <Flex placeItems={"center"} color="red">
@@ -121,7 +121,7 @@ const navigate =useNavigate()
               </Flex>
             </Flex>
 
-            <Flex gap="4%" fontSize={"13px"} lineHeight={"18px"}>
+            <Flex gap="4%" fontSize={"0.9vw"} lineHeight={"18px"}>
               <Text fontWeight={"500"}>HINDUNILVR</Text>
               <Text>2,554.75</Text>
               <Flex placeItems={"center"} color="green">
@@ -132,7 +132,7 @@ const navigate =useNavigate()
               </Flex>
             </Flex>
 
-            <Flex gap="4%" fontSize={"13px"} lineHeight={"18px"}>
+            <Flex gap="4%" fontSize={"0.9vw"} lineHeight={"18px"}>
               <Text fontWeight={"500"}>INDIGO</Text>
               <Text>2,454.30</Text>
               <Flex placeItems={"center"} color="green">
@@ -143,7 +143,7 @@ const navigate =useNavigate()
               </Flex>
             </Flex>
 
-            <Flex gap="4%" fontSize={"13px"} lineHeight={"18px"}>
+            <Flex gap="4%" fontSize={"0.9vw"} lineHeight={"18px"}>
               <Text fontWeight={"500"}>ITC</Text>
               <Text>441.65</Text>
               <Flex placeItems={"center"} color="green">
@@ -154,7 +154,7 @@ const navigate =useNavigate()
               </Flex>
             </Flex>
 
-            <Flex gap="4%" fontSize={"13px"} lineHeight={"18px"}>
+            <Flex gap="4%" fontSize={"0.9vw"} lineHeight={"18px"}>
               <Text fontWeight={"500"}>MARUTI</Text>
               <Text>8,456.05</Text>
               <Flex placeItems={"center"} color="green">
@@ -188,7 +188,7 @@ const navigate =useNavigate()
           <Box w="33%" mr="4%" h="4vh" color={"white"}>
             <InputGroup borderRadius={"25px"}>
               <InputLeftElement pointerEvents="none">
-                <Search2Icon boxSize={3} mt="-10px" color="white" />
+                <Search2Icon boxSize={3} mt={["-5px","-7px","-10px"]} color="white" />
               </InputLeftElement>
               <Input
                 borderRadius={"5px"}
@@ -222,23 +222,23 @@ const navigate =useNavigate()
 
         <Heading
           mt="2%"
-          fontSize={"45px"}
+          fontSize={["30px","35px","40px","45px"]}
           letterSpacing={"1.5px"}
-          lineHeight={"70px"}
+          lineHeight={"60px"}
           textAlign={"center"}
           color="white"
         >
           Knowledge Based
         </Heading>
         <Heading
-          fontSize={"42px"}
+          fontSize={["28px","33px","38px","42px"]}
           letterSpacing={"1.5px"}
           textAlign={"center"}
           color={"white"}
         >
           Investing & Trading
         </Heading>
-        <Text w="75%" fontSize={"28px"} color="white" margin={"auto"} mt="1%">
+        <Text w="75%" fontSize={"28px"} textAlign={"center"} color="white" margin={"auto"} mt="1%">
           Ready-made solutions + Deep Research + Disciplined Investing +
           Advanced Trading tools
         </Text>

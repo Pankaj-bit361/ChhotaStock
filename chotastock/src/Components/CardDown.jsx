@@ -6,13 +6,13 @@ import curlUp from "../Images/curlup.png";
 
 const CardDown = ({image}) => {
   return (
-    <Box h="40vh" borderRadius={"10px"} boxShadow={"rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;"} bg="#F3F3F3"  position={"relative"} color="black" mt="30%">
+    <Box  borderRadius={"10px"}  boxShadow={"rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;"} bg="#F3F3F3"  position={"relative"} color="black" mt="30%" pb="70px">
     <Text
       w="80%"
       margin={"auto"}
       mt="15%"
       textAlign={"center"}
-      fontSize={"14px"}
+      fontSize={"0.9vw"}
     >
       Chhotastock has cool investment ideas, looking forward to see how the green energy basket does
     </Text>
@@ -21,7 +21,8 @@ const CardDown = ({image}) => {
       margin={"auto"}
       mt="20%"
       textAlign={"center"}
-      fontSize={"14px"}
+      fontSize={"0.9vw"}
+    
     >
       Sunita,4th Year B.com student. Bihar
     </Text>
