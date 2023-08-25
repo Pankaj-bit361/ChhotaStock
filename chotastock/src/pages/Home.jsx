@@ -27,6 +27,7 @@ import ThirdComponent from "../Components/ThirdComponent";
 import FourthComponent from "../Components/FourthComponent";
 import FifthComponet from "../Components/FifthComponet";
 import Footer from "../Components/Footer";
+import SixthComponent from "../Components/SixthComponent";
 
 
 
@@ -243,6 +244,7 @@ const Home = () => {
 
 
       <SecondComponent/>
+      <SixthComponent/>
       <ThirdComponent/>
       <Divider w="80%" margin={"auto"} mt="5%" border="1px solid black" />
       <FourthComponent />

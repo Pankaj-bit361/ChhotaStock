@@ -10,7 +10,7 @@ import siply from "../Images/siply.png"
 import jupiter from "../Images/jupiter.png"
 
 
-const FourthComponent = () => {
+export const FourthComponent = () => {
   return (
     <Box mt="2%" w="80%" margin={"auto"}>
     <Flex  mt="5%" gap="2%"  >
