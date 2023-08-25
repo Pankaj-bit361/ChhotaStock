@@ -22,11 +22,14 @@ import PhoneImage from "../Images/mobile.png";
 import Logo from "../Images/InvestPayLogo.png";
 
 import SecondComponent from "../Components/SecondComponent";
+import ThirdComponent from "../Components/ThirdComponent";
+import FourthComponent from "../Components/FourthComponent";
+
 
 
 const Home = () => {
   const boxStyle = {
-    height: "60vh",
+    height: "60vh",  
     width: "55%",
     border: "1px solid rgb(87, 52, 158)",
     borderRadius: "500px 500px 0px 0px",
@@ -237,6 +240,10 @@ const Home = () => {
 
 
       <SecondComponent/>
+      <ThirdComponent/>
+      <Divider w="80%" margin={"auto"} mt="5%" border="1px solid black" />
+      <FourthComponent />
+   
     </Box>
   );
 };

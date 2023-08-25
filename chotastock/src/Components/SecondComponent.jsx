@@ -26,6 +26,7 @@ const SecondComponent = () => {
         bgSize="cover"
         bgPosition="center"
         bgRepeat="no-repeat"
+       
       >
         <Flex w="80%" m="auto">
           <Box w="47.5%" gap="5%">
