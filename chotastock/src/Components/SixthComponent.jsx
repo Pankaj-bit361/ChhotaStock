@@ -13,7 +13,7 @@ const SixthComponent = () => {
     <Flex
      w="80%"
      m="auto"
-      mt={"8%"}
+      mt={["25%","25%","25%","8%"]}
       pb="3%"
       placeItems={"center"}
       borderRadius={"50px"}
