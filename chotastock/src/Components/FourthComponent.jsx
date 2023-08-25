@@ -12,7 +12,7 @@ import jupiter from "../Images/jupiter.png"
 
 const FourthComponent = () => {
   return (
-    <Box mt="2%" w="80%" h="80vh" margin={"auto"}>
+    <Box mt="2%" w="80%" margin={"auto"}>
     <Flex  mt="5%" gap="2%"  >
  <Text w="33%" mt="2%" color="#777777" fontWeight={400} fontSize={"29px"}>Some partners who make InvestPe products possible-</Text>
  <Box w="65%" >
@@ -30,8 +30,6 @@ const FourthComponent = () => {
   <Box w="20%"><Image w="100%"  blendMode={"darken"} src={lendbox}/></Box>
   <Box w="25%"><Image w="100%"  blendMode={"darken"} src={liquiloans}/></Box>
   
-    
-    
 
   </Flex>
  </Box>

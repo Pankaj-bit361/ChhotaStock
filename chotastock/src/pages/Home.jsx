@@ -7,6 +7,7 @@ import {
   Input,
   InputGroup,
   InputLeftElement,
+  Spacer,
   Text,
 } from "@chakra-ui/react";
 import React from "react";
@@ -24,6 +25,8 @@ import Logo from "../Images/InvestPayLogo.png";
 import SecondComponent from "../Components/SecondComponent";
 import ThirdComponent from "../Components/ThirdComponent";
 import FourthComponent from "../Components/FourthComponent";
+import FifthComponet from "../Components/FifthComponet";
+import Footer from "../Components/Footer";
 
 
 
@@ -243,7 +246,10 @@ const Home = () => {
       <ThirdComponent/>
       <Divider w="80%" margin={"auto"} mt="5%" border="1px solid black" />
       <FourthComponent />
-   
+      <Divider w="80%" margin={"auto"} mt="5%" border="1px solid black" />
+      <FifthComponet/>
+
+<Footer/>
     </Box>
   );
 };
