@@ -28,6 +28,7 @@ import FourthComponent from "../Components/FourthComponent";
 import FifthComponet from "../Components/FifthComponet";
 import Footer from "../Components/Footer";
 import SixthComponent from "../Components/SixthComponent";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -57,6 +58,11 @@ const Home = () => {
     border: "1px solid rgb(87, 52, 158)",
     borderRadius: "500px 500px 0px 0px",
   };
+
+
+const navigate =useNavigate()
+
+
   return (
     <Box bg="#f7f7f7">
       <Box bg="#161f27">
@@ -174,9 +180,9 @@ const Home = () => {
           justifyContent={"space-between"}
         >
           <Box w={"20%"}>
-            <Image w={"100%"} src={Logo} />
+            <Image w={"100%"} src={Logo} onClick={()=>navigate("/")} />
           </Box>
-          <Text position={"absolute"} top="8.5%" left="17.7%" fontSize={"11px"}>
+          <Text position={"absolute"} top="8.5%" color={"white"} left="17.7%" fontSize={"11px"}>
             INVEST TO PAY. INVEST TO SPEND
           </Text>
           <Box w="33%" mr="4%" h="4vh" color={"white"}>
@@ -208,7 +214,7 @@ const Home = () => {
             gap="5%"
           >
             <SlLogin size={22} />
-            <Text fontWeight={"600"} fontSize={"20px"}>
+            <Text onClick={()=>navigate("/home2")} fontWeight={"600"} fontSize={"20px"}>
               Login
             </Text>
           </Flex>

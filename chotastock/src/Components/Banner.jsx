@@ -5,7 +5,7 @@ import bg5 from "../Images/bg5.png"
 
 const Banner = () => {
     return (
-        <Box bgImage={`url(${frame})`} >
+        <Box bgImage={`url(${frame})`} zIndex={0}>
             <Flex p={'6% 15%'} justifyContent={'space-between'} >
                 <Box pr={'3%'}>
                     <Heading fontSize={'2.5rem'} color={'#F3A61D'}> INVESTMENT STACK</Heading>
